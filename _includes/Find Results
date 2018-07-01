@@ -1,0 +1,35 @@
+Searching 93 files for "twitter_username"
+
+/Users/cdwanghao8/git/teenyboy.github.io/_config.yml:
+   17  zhihu_username:     teeny-boy
+   18  github_username:    teenyboy
+   19: twitter_username:   teenyboy
+   20  #facebook_username:  huxpro
+   21  #linkedin_username:  firstname-lastname-idxxxx
+
+/Users/cdwanghao8/git/teenyboy.github.io/_includes/footer.html:
+   15                      </li>
+   16                      {% endif %}
+   17:                     {% if site.twitter_username %}
+   18                      <li>
+   19:                         <a href="https://twitter.com/{{ site.twitter_username }}">
+   20                              <span class="fa-stack fa-lg">
+   21                                  <i class="fa fa-circle fa-stack-2x"></i>
+
+/Users/cdwanghao8/git/teenyboy.github.io/_layouts/page.html:
+  121                              </li>
+  122                              {% endif %}
+  123:                             {% if site.twitter_username %}
+  124                              <li>
+  125:                                 <a href="https://twitter.com/{{ site.twitter_username }}">
+  126                                      <span class="fa-stack fa-lg">
+  127                                          <i class="fa fa-circle fa-stack-2x"></i>
+
+<untitled 457>:
+   17  zhihu_username:     teenyboy
+   18  github_username:    teenyboy
+   19: twitter_username:   teenyboy
+   20  #facebook_username:  huxpro
+   21  #linkedin_username:  firstname-lastname-idxxxx
+
+6 matches across 4 files
